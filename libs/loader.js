@@ -1,5 +1,5 @@
-import {GLTFLoader} from "./three.js/examples/GLTFLoader.js";
-import * as THREE from "./three.js/build/three.module.js";
+import {GLTFLoader} from "./three/examples/GLTFLoader.js";
+import * as THREE from "./three/build/three.module.js";
 
 
 export const loadGLTF = (path) => {

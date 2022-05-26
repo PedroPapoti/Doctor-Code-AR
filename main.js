@@ -1,20 +1,20 @@
-import {loadVideo} from "../libs/loader.js";
+import {loadVideo} from "./libs/loader.js";
 const THREE = window.MINDAR.IMAGE.THREE;
 
 document.addEventListener('DOMContentLoaded', () => {
   const start = async() => {
     const mindarThree = new window.MINDAR.IMAGE.MindARThree({
       container: document.body,
-      imageTargetSrc: '../targets/ar.mind',
+      imageTargetSrc: './targets/ar.mind',
       uiScanning: "#scanning",
       uiLoading: "no"
     });
     const {renderer, scene, camera} = mindarThree;
 
-    const video = await loadVideo("../videos/ra.mp4");
+    const video = await loadVideo("./videos/ra.mp4");
     const texture = new THREE.VideoTexture(video);
  
-    const geometry = new THREE.BoxGeometry(1);//204/480
+    const geometry = new THREE.BoxGeometry(1);
     const material = new THREE.MeshBasicMaterial({map: texture});
     const box = new THREE.Mesh(geometry, material);
     
