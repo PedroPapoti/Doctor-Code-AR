@@ -24,6 +24,12 @@ Links to support studies:
 
 5 [Three.js](https://threejs.org/)
 
+Remembering that you need to place the `targets/reality.png` image below inside the square.
+
+I show this in more detail in [mission 3](https://github.com/PedroPapoti/GT-CODE/tree/main/missions/mission3) of the GT-CODE project.
+
+[Start Doctor-Code-AR](https://pedropapoti.github.io/Doctor-Code-AR/).
+
 If you have any doubts, please contact me by email pedropapoti@gmail.com.
 
 
